@@ -1,0 +1,22 @@
+Inicio 
+    Definir precio_producto, peso_kg_producto, cantidad_unidades, saldo_de_cuenta, CAPACIDAD_PESO_TRANSPORTADORA como decimal;
+    Definir es_pedido_viable como booleano;
+
+    CAPACIDAD_PESO_TRANSPORTADORA = 750;
+
+    Escribir "Digite el precio del producto: ";
+    Leer precio_producto;
+
+    Escribir "Digite el peso (en kg) del producto: ";
+    Leer peso_kg_producto;
+
+    Escribir "Digite la cantidad de productos: ";
+    Leer cantidad_unidades;
+
+    Escribir "Digite el saldo de la cuenta: ";
+    Leer saldo_de_cuenta;
+
+    es_pedido_viable <- cantidad_unidades > 50 && (precio_producto * cantidad_unidades) <= saldo_de_cuenta && (peso_kg_producto * cantidad_unidades) < CAPACIDAD_PESO_TRANSPORTADORA;
+
+    Escribir "Es viable el envio del producto ? " + es_pedido_viable;
+Fin
