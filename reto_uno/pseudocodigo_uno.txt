@@ -3,8 +3,8 @@ Inicio
     Definir costo_fabricacion, pocentaje_ganancia_esperada, valor_ganancia, subtotal, valor_iva, precio_de_venta como decimal;
     Definir IVA,DIVISION_PORCENTAJES como decimal;
 
-    PORCENTAJE_IVA = 0.19;
-    DIVISION_PORCENTAJES = 100;
+    PORCENTAJE_IVA <- 0.19;
+    DIVISION_PORCENTAJES <- 100;
 
     Escribir "Digite el nombre del producto";
     Leer nombre_producto;
