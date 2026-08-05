@@ -1,0 +1,17 @@
+Inicio 
+    Definir stock_actual, stock_minimo_permitido, capacidad_maxima_estantes;
+    Definir requiereAuditoria como booleano;
+
+    Escribir "Digite el stock actual: ";
+    Leer stock_actual;
+
+    Escribir "Digite el stock minimo permitido: ";
+    Leer stock_minimo_permitido;
+
+    Escribir "Digite la capacidad maxima: ";
+    Leer capacidad_maxima_estantes;
+
+    requiereAuditoria <- stock_actual <= stock_minimo_permitido || stock_actual > capacidad_maxima_estantes;
+
+    Escribir "El producto requiere auditoria ?:" + requiereAuditoria;
+Fin
