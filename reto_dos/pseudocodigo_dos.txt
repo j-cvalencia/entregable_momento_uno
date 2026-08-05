@@ -1,5 +1,5 @@
 Inicio 
-    Definir stock_actual, stock_minimo_permitido, capacidad_maxima_estantes;
+    Definir stock_actual, stock_minimo_permitido, capacidad_maxima_estantes como Entero;
     Definir requiereAuditoria como booleano;
 
     Escribir "Digite el stock actual: ";
